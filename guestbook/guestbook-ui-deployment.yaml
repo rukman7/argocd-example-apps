@@ -18,3 +18,5 @@ spec:
         name: guestbook-ui
         ports:
         - containerPort: 80
+      serviceAccount: guestbook-sa
+      serviceAccountName: guestbook-sa
