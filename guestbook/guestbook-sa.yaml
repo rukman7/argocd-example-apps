@@ -1,0 +1,10 @@
+apiVersion: v1
+imagePullSecrets:
+- name: guestbook-sa-dockercfg-8j7cm
+kind: ServiceAccount
+metadata:
+  annotations:
+    openshift.io/internal-registry-pull-secret-ref: guestbook-sa-dockercfg-8j7cm
+  name: guestbook-sa
+secrets:
+- name: guestbook-sa-dockercfg-8j7cm
