@@ -9,4 +9,7 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: guestbook-sa
+  namespace: eric
+- kind: ServiceAccount
+  name: guestbook-sa
   namespace: eric2
