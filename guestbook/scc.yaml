@@ -9,4 +9,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: guestbook-sa
-  namespace: eric2
+  namespace: rukman-test 
